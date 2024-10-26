@@ -25,7 +25,6 @@ public class Entity {
     public boolean canMoveUp = true, canMoveDown = true, canMoveLeft = true, canMoveRight = true;
     public boolean isHit = false;
     public boolean isDead = false;
-    public boolean canMove = true;
     public void resetCollision(boolean state) {
         canMoveUp = state;
         canMoveDown = state;
